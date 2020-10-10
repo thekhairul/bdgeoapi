@@ -25,7 +25,7 @@ function getDistricts(request,response) {
     response.json(matchedDistricts);
 }
 
-app.get('/upazila/:district/', getUpazilas);
+app.get('/upazilas/:district/', getUpazilas);
 
 function getUpazilas(request,response) {
     const district = request.params.district;
