@@ -1,0 +1,30 @@
+{
+  "name": "bdgeoapi",
+  "version": "1.0.0",
+  "description": "A basic API to fetch division, district, upazila or union of Bangladesh",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "API",
+    "BdGeoCode",
+    "BdGeoJSON",
+    "BdDistrict",
+    "BdUpazila",
+    "BdUnion"
+  ],
+  "author": "Khairul Anik",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "^14.12.0"
+  }
+}
