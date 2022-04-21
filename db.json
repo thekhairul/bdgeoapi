@@ -1,0 +1,9 @@
+{
+  "todos": [
+    {
+      "id": "abrakadabra",
+      "isCompleted": false,
+      "title": "Test todo"
+    }
+  ]
+}
